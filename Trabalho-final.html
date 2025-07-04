@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos AH/SD</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif,;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #26275f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .photo {
+            margin: 10px;
+        }
+
+        .photo img {
+            max-width: 300px; 
+            border-radius: 8px; 
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+         .photo {
+            transition: transform 0.3s ease, box-shadow
+        0.3s ease;
+        cursor: pointer;
+         }
+
+        .photo:hover {
+         transform: scale(1.1);
+         box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+        .texto-opaco {
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         width: 100%;
+         color: white;
+         background-color: rgba(0,0,0,0.6);
+         padding: 10px;
+         box-sizing: border-box;
+         opacity: 0;
+         transition: opacity 0.3s ease;
+        }
+        .container:hover .texto-opaco {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> ALTAS HABILIDADES </h1>
+    </header>
+    <main>
+
+<p> A SALA DE ALTAS HABILIDADES ATUA NO PERÍODO VESPERTINO, COMO UMA SALA DE RECURSOS PARA ALUNOS COM SUPERDOTAÇÃO/ALTAS HABILIDADES </p>
+
+        <section class="gallery">
+            <div class="photo">
+                <img src="fotos5.jpeg" alt="Grupo de estudantes">
+                <div class="texto-opaco"> Dinamica com balões com temática do setembro amarelo feita pela aluna Elaíssa </div>
+            </div>
+            <div class="photo">
+                <img src="fotos2.jpeg" alt="Experimento de ciências">
+                <div class="texto-opaco"> Dinamica do sistema sensorial feito pela aluna Maria Clara</div>
+            </div>
+            <div class="photo">
+                <img src="fotos3.jpeg" alt="Estudante tocando flauta">
+                <div class="texto-opaco"> Apresentação musical do aluno Ruan na terceira feira de altas habilidades </div>
+            </div>
+            <div class="photo">
+                <img src="fotos4.jpeg" alt="Apresentação sobre agrofloresta">
+                <div class="texto-opaco"> Apresentação sobre o sistema agoroflorestal pelos alunos Murilo e Ana Julia </div>
+            </div>
+            <div class="photo">
+                <img src="fotos6.jpeg" alt="Estudantes socializando">
+                <div class="texto-opaco"> Socialização de trabalhos em Iretama na terceira feira de altas habilidades </div>
+            </div>
+            <div class="photo">
+                <img src="fotos7.jpeg" alt="Estudante tocando Violão">
+                <div class="texto-opaco"> Apresentação musical da aluna Yasmin na terceira feira de altas habilidades </div>
+            </div>
+            <div class="photo">
+                <img src="fotos8.jpeg" alt="Medalhas">
+                <div class="texto-opaco"> Exposição de medalhas dos alunos da Sala de Alta Habilidades </div>
+            </div>
+            <div class="photo">
+                <img src="fotos9.jpeg" alt="Apresentação sistema sensorial">
+                <div class="texto-opaco"> Apresentação da aluna Maria Clara sobre o sistema sensorial e o contato com o meio através dos sentidos </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Atividades AH/SD</p>
+    </footer>
+</body>
+</html>
